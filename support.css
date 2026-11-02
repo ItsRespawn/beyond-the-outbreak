@@ -39,3 +39,21 @@
 @media(max-width:900px){.support-twocol{grid-template-columns:1fr}.support-breakdown{grid-template-columns:1fr 1fr}}
 @media(max-width:650px){.support-hero .container{padding:75px 0}.support-hero h1{font-size:clamp(63px,14vw,99px)}.support-panel{padding:24px}.support-breakdown,.support-community-grid{grid-template-columns:1fr}.support-cta-panel{padding:31px 24px}.support-panel .actions .button{width:100%;flex:auto}.support-figures{gap:8px}.support-figure strong{font-size:34px}}
 @media(prefers-reduced-motion:reduce){.support-fill{transition:none}}
+
+/* Donation-program details */
+.support-table-wrap{overflow-x:auto;border:1px solid #3f523c;margin:24px 0 26px}
+.support-program-table{width:100%;min-width:550px;border-collapse:collapse;background:#172019}
+.support-program-table th,.support-program-table td{padding:17px 22px;text-align:left;border-bottom:1px solid #364636;color:#e0eccc;font-size:15px}
+.support-program-table thead th{background:#253625;text-transform:uppercase;letter-spacing:.09em;font-size:12px;color:#b6d18f}
+.support-program-table tbody th{font:800 24px 'Barlow Condensed',Arial,sans-serif;color:#f0f5e1}
+.support-program-table tr:last-child th,.support-program-table tr:last-child td{border-bottom:0}
+.support-note{background:#213022;border-left:3px solid #a4c779;padding:21px 23px;color:#d6e6cf;max-width:1000px;line-height:1.8;font-size:14px}
+.support-reserved-grid{display:grid;grid-template-columns:1fr 1fr;gap:19px;margin:28px 0}
+.support-reserved-box{background:#18251b;border:1px solid #486247;padding:30px}
+.support-reserved-price{color:#e5f3cc;font:800 clamp(65px,8vw,95px)/1 'Barlow Condensed',Arial,sans-serif;margin:18px 0}
+.support-reserved-price span{font:500 16px Arial,sans-serif;color:#b6cfae}
+.support-reserved-box h3{font-size:34px;margin:15px 0}
+.support-reserved-box p,.support-reserved-box li{line-height:1.75;color:#c7d7c0;font-size:14px}
+.support-reserved-box ol{padding-left:23px}
+.support-reserved-box li{margin-bottom:12px}
+@media(max-width:770px){.support-reserved-grid{grid-template-columns:1fr}.support-reserved-box{padding:22px}}
