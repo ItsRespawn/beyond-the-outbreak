@@ -15,7 +15,7 @@ import urllib.error
 import urllib.request
 from pathlib import Path
 
-SITE_URL = "https://zooyork3331-hash.github.io/beyond-the-outbreak"
+SITE_URL = "https://itsrespawn.github.io/beyond-the-outbreak"
 CATEGORIES = {"Announcement", "Event", "Patch Notes", "Maintenance", "Guide"}
 SERVERS = {"All Servers", "Pripyat", "Deer Isle", "Badlands"}
 VALID_ID = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
